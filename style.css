@@ -1,0 +1,105 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.inline {
+  display: inline;
+}
+/* TODO: sort out the width on phones*/
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.left {
+  line-height: 1.5em;
+}
+.right {
+  margin-top: 1%;
+}
+@media only screen and (max-width: 620px) {
+  .left {
+    width: 90%;
+  }
+  .right {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .left {
+    width: 40%;
+  }
+  .right {
+    width: 40%;
+  }
+}
+
+.job-title {
+  margin: 0em 0 0 0;
+}
+.job-dates {
+  margin: 0 0 0.3em 0;
+}
+
+.logo {
+  margin-top: 5%;
+  height: 150px;
+}
+
+.right h2 {
+  margin: 0;
+}
+
+.left h2 {
+  margin-top: 0.3em;
+}
+
+#education p {
+  margin: 0;
+}
+
+hr {
+  height: 0.3em;
+  background: black;
+  margin-bottom: 0;
+}
+
+a:link {
+  color: hotpink;
+}
+a:visited {
+  color: hotpink;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container p {
+  margin: 0.5em 0 0 0.5em;
+}
+
+.fa-hashtag {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+}
+.tag {
+  background: black;
+  color: white;
+  border-radius: 6px 6px 6px 6px;
+  /* padding: 0.8% 2% 1.8% 2%; */
+  padding: 0.2em 0.6em 0.5em 0.6em;
+  height: 1.25em;
+  margin: 0.2em 0em 0.2em 0.2em;
+}
